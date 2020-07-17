@@ -3,6 +3,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: grafana
+  namespace: monitoring
   labels:
     app: grafana
 spec:
@@ -14,7 +15,7 @@ spec:
     spec:
       containers:
       - name: grafana
-        image: grafana/grafana:7.1.0
+        image: grafana/grafana:6.5.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
