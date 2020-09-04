@@ -8,4 +8,5 @@ resources:
   - blog
   - namespace.yaml
   - gitee-star
+  - collect-data
 namespace: opengauss-om
