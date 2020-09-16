@@ -11,4 +11,5 @@ resources:
   - collect-data
   - gitee-incubator
   - gitee-competition
+  - gitee-event
 namespace: openeuler-om
